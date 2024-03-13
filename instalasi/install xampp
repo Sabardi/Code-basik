@@ -1,0 +1,33 @@
+ Cara Download Dan Install Xampp Di linux
+
+    Buka terminal kamu, bisa menggunakan keyboard dengan cara CTRL+ALT+T
+    masuk ke folder download dengan cara cd /Downloads
+    lalu kamu ketikan "sudo chmod +x xampp-linux-x64-5.6.30-0-installer.run"
+    Pada bagian xampp-linux-x64-5.6.30-0-installer.run, samakan dengan nama xampp kamu ya. biar mudah tinggal ketik xampp lalu kamu tekan tombol tab yang ada di keyboard
+    Selanjutnya kamu ketikan "sudo ./xampp-linux-x64-5.6.30-0-installer.run"
+    Seperti biasa yang bagian xampp bla bla ,sama kan dengan nama file kamu, atau bisa juga kamu baru tulis xampp lalu kamu tekan tombol Tab yang ada di keyboard
+    Selanjutnya akan muncul popup seperti mau install xampp di windows
+    tinggal next next aja deh 
+    Finish. 
+
+ Cara Start Xampp Di Linux
+
+    Kamu bisa ketikan di terminal  su - untuk masuk root, lalu masukin password-Nya
+    Lalu ketikan  /opt/lampp/lampp start
+    Maka Otomatis akan berjalan xampp-Nya
+
+Cara Menjalankan PHP Menggunakan Xampp Di Linux
+
+    Sudah Pastikan kamu aktifkan xamppya di Linux
+    lalu kamu masuk ke folder opt/lampp/htdocs/
+    Kamu buat folder baru dengan nama bewok, terserah sih, kalau ga mau juga gapapa :(
+    Kamu buat file dengan nama hello.php
+    Buat filenya menggunakan text editor kamu ya
+    Pasti ga bisa (sukurin lu :p)
+    Kamu harus buka permissionya terlebih dahulu
+    Seperti biasa kamu harus buka terminalnya dulu ya 
+    Lalu ketikkan  sudo chmod -R 777 /opt/lampp/htdocs/
+    Oke kamu coba save kembali file kamu.
+    Lalu kamu buka di browser localhost/bewok
+    Selesai
+
